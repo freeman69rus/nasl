@@ -1,0 +1,91 @@
+body{
+font-family: 'Monsterrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600!important;
+    line-height: 3;
+    color: #212529;
+    text-align: left;
+
+}
+/*font*/
+
+/*navbar*/
+
+.btn1{
+    -webkit-transform: rotate(-2.66deg);
+    -moz-transform: rotate(-2.66deg);
+    -o-transform: rotate(-2.66deg);
+    -ms-transform: rotate(-2.66deg);
+    transform: rotate(-2.66deg);
+}
+.btn2{
+    -webkit-transform: rotate(2.26deg);
+    -moz-transform: rotate(2.26deg);
+    -o-transform: rotate(2.26deg);
+    -ms-transform: rotate(2.26deg);
+    transform: rotate(2.26deg);
+}
+.btn3{
+    -webkit-transform: rotate(-1.22deg);
+    -moz-transform: rotate(-1.22deg);
+    -o-transform: rotate(-1.22deg);
+    -ms-transform: rotate(-1.22deg);
+    transform: rotate(-1.22deg);
+}
+.btn4{
+    -webkit-transform: rotate(2.07deg);
+    -moz-transform: rotate(2.07deg);
+    -o-transform: rotate(2.07deg);
+    -ms-transform: rotate(2.07deg);
+    transform: rotate(2.07deg);
+}
+.back_btn{
+    background: #1b1e21;
+    text-decoration: none!important;
+    color: #E15C64;
+    padding: 5px;
+}
+.back_btn:hover{
+    color: white;
+    padding: 6px;
+}
+.logo_in {
+    width: 80px;
+}
+.logo{
+    width: auto;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 10%;
+    z-index: 1000;
+    display: block !important;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 0.9rem;
+    color: #000;
+    list-style: none;
+    background-color: #000;
+    background-clip: padding-box;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    color: #E15C64;
+    text-align: inherit;
+    white-space: nowrap;
+    border: 0;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600!important;
+    line-height: 3;
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #ffffff;
+    text-decoration: none;
+    left: 10%;
+}
