@@ -1,3 +1,10 @@
+/*font*/
+@font-face {
+    font-family: 'Podkova';
+    src: url("Podkova-Regular.ttf");
+}
+
+/*body*/
 body{
 font-family: 'Monsterrat', sans-serif;
     font-size: 1rem;
@@ -7,10 +14,14 @@ font-family: 'Monsterrat', sans-serif;
     text-align: left;
 
 }
-/*font*/
+
+h1, h2, h3, h4 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 
 /*navbar*/
-
 .btn1{
     -webkit-transform: rotate(-2.66deg);
     -moz-transform: rotate(-2.66deg);
@@ -44,10 +55,11 @@ font-family: 'Monsterrat', sans-serif;
     text-decoration: none!important;
     color: #E15C64;
     padding: 5px;
+    font-size: 1.2em;
 }
 .back_btn:hover{
     color: white;
-    padding: 6px;
+    /*padding: 6px;*/
 }
 .logo_in {
     width: 80px;
@@ -89,3 +101,214 @@ font-family: 'Monsterrat', sans-serif;
     text-decoration: none;
     left: 10%;
 }
+/*background*/
+.bg-manchik {
+    background: linear-gradient(0deg, rgba(48, 48, 48, 0.5), rgba(48, 48, 48, 0.5)), url(../img/manchik.jpg), #E8E8E8;
+    background-size: cover;
+    background-position-y: 40%;
+    height: 107vh;
+    width: 100%;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.ps {
+    background: black;
+    color: white;
+    padding: 0.3% .3% .3% .3%;
+    width: 12%;
+    transform: rotate(-2.5deg);
+    height: 6%;
+    font-family: 'Podkova';
+    justify-content: center;
+    margin: 0px 0px -2% 1px;
+}
+
+.ps p {
+    transform: rotate(2.5deg);
+    font-size: 1em;
+    white-space: normal;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 500;
+}
+.underl {
+    text-decoration: underline;
+}
+/*paper*/
+.paper {
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Podkova';
+    padding: 2% 0;
+    background: white;
+}
+
+.paper h1 {
+    width: 23%;
+    transform: rotate(2.5deg);
+    text-align: center;
+    font-size: 1.35em;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.paper p {
+    margin-top: 2%;
+    width: 30%;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.paper-img {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.paper-img2 {
+    width: 100%;
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 2;
+}
+/*touch-slider*/
+
+.slider-main {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/plitka2.png");
+    background-size: 28%;
+}
+
+.carousel {
+    width: 68%;
+    height: 100vh;
+}
+
+.carousel img {
+    height: 100vh;
+    transition: .5s linear;
+}
+
+.slider-wrap {
+    height: 100vh;
+}
+
+.controls {
+    padding: 4% 2%;
+    background: #000000db;
+    height: 82vh;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 2%;
+    margin-top: 8%;
+    z-index: 1;
+    font-size: 1.75em;
+    line-height: 2em;
+    justify-content: start;
+}
+
+.controls li {
+    cursor: pointer;
+    color: white;
+    list-style: none;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: end;
+}
+
+.controls li:after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    margin-left: 8%;
+}
+.controls li:hover:after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background: white;
+    margin-left: 8%;
+}
+
+/*film-slider*/
+.carouselthreeslides{
+    position: relative;
+    width: 60%;
+}
+.carousel-film_main {
+    height: 90vh;
+    width: 100%;
+    background: black;
+    font-family: Montserrat;
+}
+.carousel-film {
+    width: 100%;
+    color: white;
+}
+.carousel-card{
+    margin-top: 10%;
+    background-color: black;
+}
+.tovar-name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tovar_desc_film {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    letter-spacing: -0.035em;
+}
+.carousel-film_main img {
+    height: 40vh;
+    width: 100%;
+    transition: .5s linear;
+    margin-bottom: 5%;
+}
+.carousel-card.active{
+    z-index: 100;
+    cursor: pointer;
+}
+.button_f_c{
+    width: max-content;
+    height: 7vh;
+    color: white;
+    border:solid 1px white;
+    background-color: black;
+    padding: 0.3%;
+    transform:rotate(2deg);
+    font-family: Podkova;
+}
+.button_f_c a{
+    text-decoration: none !important;
+    color: white !important;
+
+}
+.wear-line-card{
+   align-items: end;
+}
+.card_main {
+    width: 265px;
+    height: 400px;
+    color: white;
+}
+.card_main_back {
+    width: 100%;
+    height: 100%;
+    background: url("../img/manchik.jpg");
+}
+
